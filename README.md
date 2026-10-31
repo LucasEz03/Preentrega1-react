@@ -1,16 +1,40 @@
-# React + Vite
+# Tienda de Componentes
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+E-commerce de venta de componentes de PC (procesadores, placas de video, memorias RAM, almacenamiento, etc.) y computadoras armadas a medida. Permite explorar el catálogo de productos, ver el detalle de cada uno y gestionar un carrito de compras.
 
-Currently, two official plugins are available:
+Proyecto desarrollado como parte del curso de React de Coderhouse. Actualmente se encuentra en su etapa inicial: solo cuenta con la estructura base del proyecto.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## Tecnologías utilizadas
 
-## React Compiler
+- React
+- Vite
+- JavaScript
+- ESLint
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## Instalación y ejecución
 
-## Expanding the ESLint configuration
+1. Clonar el repositorio:
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+   ```bash
+   git clone https://github.com/LucasEz03/Preentrega1-react.git
+   ```
+
+2. Entrar a la carpeta del proyecto:
+
+   ```bash
+   cd tienda-componentes
+   ```
+
+3. Instalar las dependencias:
+
+   ```bash
+   npm install
+   ```
+
+4. Ejecutar la aplicación en modo desarrollo:
+
+   ```bash
+   npm run dev
+   ```
+
+5. Abrir en el navegador la URL que muestra la terminal (normalmente `http://localhost:5173`).
